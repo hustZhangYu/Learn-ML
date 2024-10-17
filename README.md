@@ -18,4 +18,5 @@ Why people always study the time evolution of the open systems rather than isola
 #### 3. 多层感知机（MLP）训练
 我们尝试用最经典的多层感知机MLP来预测时间序列。然而实际情况表明，效果不太好。
 #### 4. 迭代神经网络训练（RNN）训练
+我们首先训练单参数输入的神经网络来对时间序列进行预测。
 #### 5. 更多参数的引入和模型的泛化
