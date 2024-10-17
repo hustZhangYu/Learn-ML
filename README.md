@@ -14,6 +14,7 @@ Why people always study the time evolution of the open systems rather than isola
 
 #### 1. 数据导入和汇总
 #### 2. 数据预处理和归一化
+这一部分，我们主要考虑如何对数据进行一个预先的处理，包括识别并且修改一些异常值，对数据进行归一化，方便之后的训练。
 #### 3. 多层感知机（MLP）训练
 #### 4. 迭代神经网络训练（RNN）训练
 #### 5. 更多参数的引入和模型的泛化
