@@ -14,6 +14,7 @@ Why people always study the time evolution of the open systems rather than isola
 
 #### 1. 数据导入和相关性统计
 我们首先录入label。 其次我们引入相应的因变量。但哪些因变量会影响系统的时间演化？我们首先进行相关性统计，考虑这些因变量是否真的与标签相关。
+我们首先导入工步号，公布状态和运行时间。
 #### 2. 数据预处理和归一化
 这一部分，我们主要考虑如何对数据进行一个预先的处理，包括识别并且修改一些异常值，对数据进行归一化，方便之后的训练。
 #### 3. 多层感知机（MLP）训练
@@ -22,3 +23,4 @@ Why people always study the time evolution of the open systems rather than isola
 我们首先训练单参数输入的神经网络来对时间序列进行预测。
 首先介绍RNN的基本原理：
 #### 5. 更多参数的引入和模型的泛化
+在已有的数据上，并未给出温度，气压等外部数据。这一部分，我们考虑将相关的外部参数引入。同样首先进行的是相关性的分析。
