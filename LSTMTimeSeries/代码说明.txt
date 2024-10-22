@@ -1,0 +1,3 @@
+DataSet1.py : 数据预处理代码
+LSTMtrain2.py: 模型训练代码
+LSTMReadAndTest.py: 模型测试代码
